@@ -1,12 +1,10 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import TaskLists from "./components/TaskLists";
+import DragDrop from "./components/DragDrop";
 
 function App() {
   return (
     <div className='App'>
-      <TaskLists />
+      <DragDrop />
     </div>
   );
 }
